@@ -23,7 +23,8 @@ module.exports = {
     },
     devtool: 'eval-cheap-module-source-map',
     devServer:{
-        watchFiles: path.join(__dirname, 'public')
+        watchFiles: path.join(__dirname, 'public'),
+        allowedHosts: 'all'
     }
 }
 
